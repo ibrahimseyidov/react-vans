@@ -1,0 +1,55 @@
+.main-bg {
+    background: url("../../assets/images/home-bg.svg"), linear-gradient(0deg, rgba(0, 0, 0, 0.46) 0%, rgba(0, 0, 0, 0.46) 100%), lightgray 0px -65.191px / 100% 178.109% no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 566.4px;
+
+}
+
+.home-container {
+    padding: 65.78px 27px;
+}
+
+.home-head {
+    margin-bottom: 22.64px;
+}
+
+.home-head :first-child {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 42px;
+}
+
+.home-desc {
+    margin-bottom: 51.66px;
+}
+
+.home-desc :first-child {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+}
+
+.find-btn a {
+    background: #FF8C38;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    height: 49.832px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 0.95rem;
+}
+
+.find-btn a:hover {
+    opacity: 0.95;
+}

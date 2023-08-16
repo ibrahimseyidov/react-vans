@@ -1,0 +1,32 @@
+.header-bg {
+    background-color: #FFF7ED;
+}
+
+.header-container {
+    padding: 35px 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    color: #000;
+    font-size: 25.353px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 16px;
+    cursor: pointer;
+}
+

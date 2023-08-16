@@ -1,0 +1,36 @@
+.error-bg {
+    background: #FFF7ED;
+    padding: 104.38px 27px;
+    height: 566.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-bg :first-child {
+    color: #161616;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.error-bg :nth-child(2) {
+    width: 494px;
+    height: 55px;
+    background-color: #161616;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.error-bg :nth-child(2):hover {
+    opacity: 0.85;
+}

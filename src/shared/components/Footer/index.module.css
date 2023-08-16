@@ -1,0 +1,14 @@
+.footer-bg {
+    background: #252525;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    color: #AAA;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 40px 0;
+    font-family: 'Inter', sans-serif;
+}
+

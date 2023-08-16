@@ -1,0 +1,127 @@
+.vanDetail-bg {
+    background-color: #FFF7ED;
+    padding: 40px 24px 85px 26px;
+}
+
+.vanDetail-container {
+    height: 100vh;
+    margin-bottom: 700px;
+}
+
+.back-btn {
+    margin-bottom: 41px;
+}
+
+.back-btn :first-child {
+    margin-right: 11px;
+}
+
+.back-btn :nth-child(2) {
+    color: #201F1D;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.detail-img {
+    border-radius: 5px;
+    width: 497px;
+    margin-bottom: 53px;
+}
+
+.detail-img :first-child {
+    border-radius: 5px;
+}
+
+.van-type {
+    background: #E17654;
+    border-radius: 5px;
+    color: #FFEAD0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    padding: 6px 16px;
+}
+
+.van-type-container {
+    margin-bottom: 26.38px;
+}
+
+.van-desc :nth-child(2) {
+    color: #161616;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.van-desc :nth-child(3) {
+    color: #161616;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.van-desc :nth-child(3) :first-child {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+}
+
+.van-desc :nth-child(4) {
+    margin-top: 14px;
+    color: #161616;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 500px;
+    margin-bottom: 21.64px;
+}
+
+.van-desc :nth-child(5) {
+    width: 494.333px;
+    height: 49.832px;
+    border-radius: 5px;
+    background-color: #FF8C38;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.van-desc :nth-child(5):hover {
+    opacity: 0.9;
+}
+
+.van-simple {
+    background: #E17654;
+    border-radius: 5px;
+    width: 86px;
+    height: 34px;
+    padding: 4px 14px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.van-luxury {
+    background: #161616;
+    border-radius: 5px;
+    width: 86px;
+    height: 34px;
+    padding: 4px 14px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.van-rugged {
+    background: #115E59;
+    border-radius: 5px;
+    width: 86px;
+    height: 34px;
+    padding: 4px 14px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}

@@ -1,0 +1,127 @@
+.main-bg {
+    background: #FFF7ED;
+    padding: 54px 27.5px;
+}
+
+.vans-head {
+    margin-bottom: 55.69px;
+}
+
+.vans-title {
+    margin-bottom: 22.39px;
+}
+
+.van-container {
+    height: 100vh;
+    margin-bottom: 200px;
+}
+
+.vans-title :first-child {
+    color: #161616;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.filter-name {
+    background: #FFEAD0;
+    width: 104px;
+    height: 37px;
+    padding: 6px 26px 7px 26px;
+    border-radius: 5px;
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.clear-filter {
+    margin-left: 20px;
+    text-decoration: underline;
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card-container {
+    width: 229px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+}
+
+.card-container:hover {
+    transform: scale(1.1);
+}
+
+.img-container {
+    margin-bottom: 10px;
+}
+
+.img-container img {
+    width: 229px;
+    border-radius: 5px;
+}
+
+.card-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title :first-child {
+    color: #161616;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card-title :nth-child(2) {
+    background: #E17654;
+    border-radius: 5px;
+    width: 86px;
+    height: 34px;
+    padding: 4px 14px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card-price :first-child {
+    color: #161616;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-price :nth-child(3) {
+    color: #161616;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.van-simple {
+    background: #E17654 !important;
+}
+
+.van-luxury {
+    background: #161616 !important;
+}
+
+.van-rugged {
+    background: #115E59 !important;
+}
